@@ -1,2 +1,7 @@
 config:
   info: "master branch,springcloud-config/config-dev.yml version=7" 
+#服务注册到eureka地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka01:7001/eureka,http://eureka02:7002/eureka
